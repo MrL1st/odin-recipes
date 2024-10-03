@@ -1,0 +1,38 @@
+body {
+    background-color:darkblue;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 250;
+    font-size: 60px;
+    color:gold
+
+}
+
+ul {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkblue;
+}
+
+ul li {
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color:gold;
+}
+a:visited {
+    color:gold;
+}
+a:hover {
+    color:lightsteelblue;
+}
