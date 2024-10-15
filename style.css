@@ -1,26 +1,45 @@
 body {
-    background-color:darkblue;
+    background-color:rgb(93, 93, 238);
 }
 
-.header {
-    text-align: center;
+.header{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 250;
-    font-size: 60px;
-    color:gold
-
+    color:gold;
 }
-
-ul {
+.headFront{
+    font-size: 50px;
     text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:darkblue;
+}
+.headerSub {
+    color:goldenrod;
+    font-size: 30px;
 }
 
-ul li {
-    padding: 30px;
+.list {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.listFront {
+    text-align: center;
+    list-style: none;
+    box-sizing: border-box;
+    line-height: 5;
+}
+.ingredients{
+    color:rgb(247, 192, 54);
+    line-height: 1.5;
+}
+.steps{
+    color:rgb(241, 225, 74);
+    line-height: 1.7;
+}
+
+p {
+    font-size: 25px;
+    color: goldenrod;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -34,5 +53,5 @@ a:visited {
     color:gold;
 }
 a:hover {
-    color:lightsteelblue;
+    color:goldenrod;
 }
